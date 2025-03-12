@@ -47,6 +47,34 @@ namespace WEB_APIv1.Core.Services.Shop
             return orders;
         }
 
+       
 
+        public Customer? GetCustomerById(int customerId)
+        {
+            return dbContext.Customers
+                .FirstOrDefault(c => c.CustId == customerId);
+        }
+
+        public void AddCustomer(Customer customer)
+        {
+            dbContext.Customers.Add(customer);
+            dbContext.SaveChanges();
+        }
+
+        public void UpdateCustomer(Customer customer)
+        {
+            dbContext.Customers.Update(customer);
+            dbContext.SaveChanges();
+        }
+
+        public void DeleteCustomer(int customerId)
+        {
+            var customer = dbContext.Customers.FirstOrDefault(c => c.CustId == customerId);
+            if (customer != null)
+            {
+                dbContext.Customers.Remove(customer);
+                dbContext.SaveChanges();
+            }
+        }
     }
 }
