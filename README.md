@@ -1,5 +1,4 @@
 # Sales-Date-Prediction
-# Sales Date Prediction
 
 ## Descripción
 Sales Date Prediction es una aplicación basada en web para predecir la fecha de la próxima orden de un cliente utilizando el historial de pedidos. La aplicación está construida con **Angular 19** para el frontend y **ASP.NET Core 9** para el backend, utilizando **Entity Framework Core** para la gestión de datos.
@@ -15,6 +14,14 @@ Sales Date Prediction es una aplicación basada en web para predecir la fecha de
 - Internacionalización y tematización con **SASS**.
 - CLI de Angular para administración eficiente.
 - Animaciones y directivas personalizadas.
+![image](https://github.com/user-attachments/assets/1b81772c-0f1d-4271-95c0-03e17484839a)
+
+![image](https://github.com/user-attachments/assets/8292268e-67da-48fb-8a4a-d06a32c7b223)
+
+![image](https://github.com/user-attachments/assets/b839763a-df75-48dc-ac07-796409fa00da)
+
+
+
 
 ### 🛠️ **Backend (ASP.NET Core 9 + EF Core)**
 - API RESTful siguiendo principios de diseño REST.
